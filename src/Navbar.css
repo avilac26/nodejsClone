@@ -1,0 +1,242 @@
+.nav{
+    background-color:  #0D1117;
+    display: flex;
+    flex-direction: row;
+    height: 52px;
+    border-bottom: 2px solid #3d3d3d;
+}
+
+.sectors{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sector1{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    width: 10%;
+    margin-top: 1%;
+    margin-right: 15%;
+    margin-left: 3%;
+}
+
+img{
+    top: 50px;
+    width: 80px;
+}
+
+.option{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1.5% 3% 0% 3%;
+    font-size: 0.7em;
+    margin-top: 3.5%;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
+a{
+    margin-bottom: 3%;
+}
+
+a:hover{
+    background: #3d3d3d;
+}
+
+
+.sector2{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    margin-left: auto;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    background-color: #0D1117;
+    height: 30px;
+    width: 285px;
+    margin-top: 3%;
+    margin-right: 0%;
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    font-size: 0.75em;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+button:hover{
+    background-color: #3d3d3d;
+    cursor: pointer;
+    
+}
+
+button p{
+    margin-left: 2%;
+}
+
+.grid{
+    border-radius: 4px;
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: row;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: -1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+}
+
+.K{
+    padding-left: 7%;
+    padding-right: 2%;
+    color: #E5E5E5;
+}
+
+.icons{
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    margin-top: 3%;
+    margin-right: 25%;
+    margin-bottom: 4%;
+    padding-left: 1%;
+}
+
+.icon{
+    padding: 15%;
+    border-radius: 3px;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: -2%;
+}
+
+.icon:hover{
+    cursor: pointer;
+    background-color: #3d3d3d;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+/* --- RESPONSIVE --- */
+
+@media (min-width: 900px){
+    .imageHamburger{
+    display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .image{
+        display: none;
+    }
+
+    .imageHamburger{
+        width: auto;
+        height: 25px;
+        margin-top: 1%;
+        margin-right: 15%;
+        margin-left: 0%;
+    }
+
+    /* Mostrar el botón hamburguesa */
+    .hamburger {
+        display: block;
+    }
+
+    /* Ocultar menú */
+    .sectors {
+        display: none;
+        flex-direction: column;
+        background-color: #0D1117;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        gap: 15px;
+        z-index: 1000;
+        border-bottom: 1px solid #3d3d3d;  
+    }
+
+    .nav{
+        
+    }
+
+    .sector1{
+        flex-direction: column;
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+
+    .option{
+        width: 90%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        font-size: 0.78em;
+    }
+
+    a{
+        margin-bottom: -3.5%;
+    }
+
+    .sector2{
+        margin-top: 3%;
+        margin-left: 0%;
+        border: 1px solid #3d3d3d;
+        width: 100%;
+    }
+
+    button{
+    padding-top: 0.5%;
+    background-color: #0D1117;
+    height: 28px;
+    width: 70%;
+    margin-top: 4%;
+    margin-right: 0%;
+    margin-left: 2%;
+    }
+
+    .grid{
+        display: none;
+    }
+
+    .icons{
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+
+    .icon{
+        padding: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* Mostrar menú cuando el checkbox está activado */
+    .menu-toggle:checked ~ .sectors {
+        display: flex;
+    }
+}
