@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.body{
+    background: radial-gradient(
+    circle,
+    #1e3a1e -30%,
+    #1e3a1e -30%,
+    #0D1117 100%
+    );
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.body1{
+    width: 40%;
+    padding-top: 4em;
+    padding-right: 0;
+    padding-bottom: 4em;
+    padding-left: 4em;
+}
+.body2{
+    width: 60%;
+    padding: 3em;
+}
+
+h1{
+    font-size: 2.3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.83em;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.bodyBtn{
+    background-color: rgba(0, 0, 0, 0); /* negro con 50% de opacidad */
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #2d5016;
+    font-weight: bold;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    padding-bottom: 2%;
+}
+
+.bodyBtn:hover{
+    background-color: rgba(45, 80, 22, 0.5);
+}
+
+.bodyBtn2{
+    background-color: rgba(0, 0, 0, 0.1); /* negro con 50% de opacidad */
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+}
+
+.bodyBtn2Container{
+    width: 100%;
+}
+
+.bodyBtn2 .p1{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.bodyBtn2 .p2{
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.icons2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icons2 .bodyBtn3{
+    border: 1px solid #3d3d3d;
+    border-radius: 7px;
+    width: 50px;
+    height: 25px;
+    margin: 5px auto;
+    justify-content: center;
+}
+
+.icons2 .bodyBtn3digitalocean{
+    width: 50px;
+    height: 25px;
+    border-radius: 7px;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.icons2 .bodyBtn3codemode{
+    width: 50px;
+    height: 25px;
+    border-radius: 7px;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.icons2 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 1%;
+}
+
+.icons2 .digitalocean{
+    width: 30px;
+    height: 20px;
+}
+
+.icons2 .cloudfare{
+    width: 30px;
+    height: 20px;
+}
+
+.icons2 .codemode{
+    width: 12px;
+    height: 12px;
+    padding-top: 15%;
+}
+
+.description2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    color: gray;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.highlight{
+    color: #82b162;
+}
+
+.highlight:hover{
+    cursor: pointer;
+    color: #bfcfb5;
+}
+
+@media(max-width:767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body1{
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    }
+
+    .body2{
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    }
+}

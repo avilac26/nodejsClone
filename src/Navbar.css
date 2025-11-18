@@ -68,6 +68,7 @@ button{
     border-radius: 10px;
     color: white;
     text-align: left;
+    text-align: center;
     font-size: 0.75em;
     font-family: system-ui, -apple-system, sans-serif;
 }
@@ -151,6 +152,7 @@ button p{
 }
 
 @media (max-width: 900px) {
+
     .image{
         display: none;
     }
@@ -172,18 +174,14 @@ button p{
     .sectors {
         display: none;
         flex-direction: column;
-        background-color: #0D1117;
+        background-color: rgba(13, 17, 23, 0.9);
         position: absolute;
         top: 50px;
         left: 0;
         width: 100%;
         gap: 15px;
-        z-index: 1000;
+        z-index: 1;
         border-bottom: 1px solid #3d3d3d;  
-    }
-
-    .nav{
-        
     }
 
     .sector1{
@@ -207,7 +205,7 @@ button p{
         margin-top: 3%;
         margin-left: 0%;
         border: 1px solid #3d3d3d;
-        width: 100%;
+        width: 99.8%;
     }
 
     button{
@@ -218,6 +216,7 @@ button p{
     margin-top: 4%;
     margin-right: 0%;
     margin-left: 2%;
+    text-align: center;
     }
 
     .grid{
