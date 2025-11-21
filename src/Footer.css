@@ -1,0 +1,156 @@
+
+.footer{
+    
+    background-color: #0D1117;
+    border-top: 1px solid #3d3d3d;
+}
+
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    padding-bottom: 5em;
+}
+
+.footer1{
+    width: 60%;
+    margin-right: auto;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.footer1 .blue{
+    border: 1px solid #0d74ce;
+    background-color: #3d3d3d;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, sans-serif;
+    text-wrap: nowrap;
+    padding: 6px;
+    height: 30px;
+    color: #acc4da;
+    margin-right: 3%;
+}
+
+.footer1 .blue:hover{
+    cursor: pointer;
+}
+
+.footer1 .span1{
+    background-color: #0d74ce;
+    border-radius: 15px;
+    padding: 3px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.footer1 .green{
+    border: 1px solid #2da44e;
+    background-color: #3d3d3d;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, sans-serif;
+    text-wrap: nowrap;
+    padding: 6px;
+    height: 30px;
+    color: #89c79a;
+    margin-right: 3%;
+}
+
+.footer1 .green:hover{
+    cursor: pointer;
+}
+
+.footer1 .span2{
+    background-color: #2da44e;
+    border-radius: 15px;
+    padding: 3px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.option2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    border-radius: 3px;
+    height: auto;
+    margin-top: 1%;
+    margin-right: 3%;
+    height: 20px;
+    padding: 6px;
+}
+
+
+.option2:hover{
+    background: #3d3d3d;
+}
+
+.footer2{
+    width: 40%;
+    margin-right: 3%;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.openJS{
+    
+    border-radius: 3px;
+    height: auto;
+    padding: 6px;
+    text-align: center;
+}
+
+.openJS a{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+}
+
+.openJS:hover{
+    background: #3d3d3d;
+}
+
+.icons4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.icons4I{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+}
+
+.icons4I:hover{
+    cursor: pointer;
+    background-color: #3d3d3d;
+}
+
+
+@media (max-width: 900px) {
+    .footer1{
+        width: 50%;
+    }
+    .footer2{
+        width: 50%;
+    }
+}
