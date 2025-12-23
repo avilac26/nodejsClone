@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-.body{
-    background: radial-gradient(
-    circle,
-    #1e3a1e 10%,
-    #1e3a1e 10%,
-    #0D1117 50%
-    );
-    padding-bottom: 3%;
-}
 
-.container{
-    display: flex;
-    flex-direction: row;
-    padding-top: 4%;
-}
 
 .body1{
     width: 45%;

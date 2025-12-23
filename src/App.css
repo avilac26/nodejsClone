@@ -2,3 +2,20 @@
     text-decoration: none;
     margin: 0;
 }
+
+
+.body{
+    background: radial-gradient(
+    circle,
+    #1e3a1e 10%,
+    #1e3a1e 10%,
+    #0D1117 50%
+    );
+    padding-bottom: 3%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4%;
+}
