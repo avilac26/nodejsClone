@@ -44,7 +44,7 @@ img{
     margin-bottom: 0%;
 }
 
-.nav a:hover{
+.nav .option:hover{
     background: #3d3d3d;
 }
 
